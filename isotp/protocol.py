@@ -193,10 +193,6 @@ class TransportLayer:
     LOGGER_NAME = 'isotp'
 
     class Params:
-        __slots__ = (   'stmin', 'blocksize', 'squash_stmin_requirement', 'rx_flowcontrol_timeout', 
-                        'rx_consecutive_frame_timeout', 'tx_padding', 'wftmax', 'tx_data_length', 'tx_data_min_length', 
-                        'max_frame_size', 'can_fd', 'bitrate_switch', 'default_target_address_type'
-                        )
 
         def __init__(self):
             self.stmin 							=  0
