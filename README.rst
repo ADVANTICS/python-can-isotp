@@ -1,6 +1,7 @@
 python-can-isotp
 ################
 
+[Forked version fixing an issue preventing from modifying isotp params after initialization]
 .. image:: https://travis-ci.com/pylessard/python-can-isotp.svg?branch=master
     :target: https://travis-ci.com/pylessard/python-can-isotp
 
